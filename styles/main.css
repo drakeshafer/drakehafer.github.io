@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600i');
+
 /* CSS reset to get rid of unwanted white space that was popping up */
 * {
     margin: 0;
@@ -34,6 +37,9 @@ html {
 }
 
 .main-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 600;
     font-size: 6.5vw;
     padding-top: 30vh;
     padding-right: 2vw;
