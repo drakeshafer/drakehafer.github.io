@@ -1,0 +1,75 @@
+/* CSS reset to get rid of unwanted white space that was popping up */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    background: #000000;
+}
+
+.body-image {
+    background: url("https://drakeshafer.github.io/img/DrakeChicagoLakeNight.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: right;
+}
+
+.main-text h1 {
+    font-size: 6.5vw;
+    padding-top: 30vh;
+    padding-right: 2vw;
+    padding-bottom:0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #eee;
+}
+
+.nav-menu {
+    padding-right: 1vw;
+}
+
+.nav-text:hover {
+    color: #bbb;
+}
+
+.nav-text {
+    font-size: 2.5vw;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding-left: 0.35vw;
+    padding-right: 0.35vw;
+    margin: 0 0.75vw;
+    color: #eee;
+}
+
+
+/* For screens smaller than 500px */
+@media (max-width: 640px) {
+    .main-text h1 {
+        font-size: 40px;
+    }
+
+    .nav-text {
+        font-size: 15px;
+    }
+}
