@@ -26,6 +26,9 @@ html {
     display: flex;
     justify-content: right;
     align-content: center;
+    display: -webkit-flex;
+    -webkit-justify-content: right;
+    -webkit-align-content: center;
 }
 
 .main-text {
