@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600i');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400i,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+
+
+/* CSS reset to get rid of unwanted white space that was popping up */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    background: #000000;
+}
+
+.body-image {
+    background: url("https://drakeshafer.github.io/img/RioSunset.JPG");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-content: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+}
+
+.main-text p {
+    font-family: 'Zilla Slab', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4vw;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #eee;
+}
+
+.main-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6.5vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+}
