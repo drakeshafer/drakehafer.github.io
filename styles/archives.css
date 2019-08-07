@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400i,600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400i&display=swap');
 
 /* CSS reset to get rid of unwanted white space that was popping up */
 * {
@@ -41,22 +41,22 @@ html {
     text-align: left;
 }
 
-.main-text p {
-    font-family: 'Zilla Slab', serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 4vw;
-    text-decoration: none;
-    text-transform: lowercase;
-    color: #eee;
-}
-
-.main-text h2 {
+.main-text h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 6.5vw;
     text-decoration: none;
     text-transform: uppercase;
+    color: #eee;
+}
+
+.main-text h2 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4vw;
+    text-decoration: none;
+    text-transform: lowercase;
     color: #eee;
 }
