@@ -1,0 +1,16 @@
+button {
+    background: red;
+    border: none !important;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button:hover {
+    background: red;
+    opacity: 0.05;
+    cursor: pointer;
+  }
